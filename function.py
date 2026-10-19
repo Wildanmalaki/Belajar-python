@@ -119,3 +119,22 @@ def luas(panjang, lebar):
 
 hasil = luas(8,5)
 print("Luas persegi panjang: " + str(hasil))
+
+#garis
+print("=" * lebar)
+print("latihan return lagi gaes".center(lebar))
+print("=" * lebar)
+
+def kategori(angka):
+    if angka > 5:
+        return "Besar"
+    else:
+        return "Kecil"
+
+hasil1 = kategori(3)
+hasil2 = kategori(7)
+
+print("Hasil dari function kategori(3) adalah: " + str(hasil1))
+print("hasil dar function kategori(7) adalah: " + str(hasil2))
+
+print("\nTerima kasih sudah menggunakan program ini")
